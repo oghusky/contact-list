@@ -15,7 +15,7 @@ const Header = props => {
 					{branding}
 				</a>
 				<div>
-					<ul class="navbar-nav mr-auto">
+					<ul className="navbar-nav mr-auto">
 						<li className="nav-item">
 							<a href="/" className="nav-link">
 								Home

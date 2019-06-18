@@ -23,7 +23,7 @@ class Contact extends React.Component {
 Contact.propTypes = {
 	name: PropTypes.string.isRequired,
 	email: PropTypes.string.isRequired,
-	phone: PropTypes.string.isRequired,
+	number: PropTypes.string.isRequired,
 };
 
 export default Contact;
