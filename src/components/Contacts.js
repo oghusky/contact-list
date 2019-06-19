@@ -31,7 +31,7 @@ class Contacts extends Component {
     render() {
         const { contacts } = this.state;
         return (
-            <div>
+            <React.Fragment>
                 {/* parentheses go where curly brackets usually go in higher order functions */}
                 {contacts.map(contact => (
                     <Contact
@@ -40,7 +40,7 @@ class Contacts extends Component {
                         email={contact.email}
                         number={contact.number} />
                 ))}
-            </div>
+            </React.Fragment>
         )
     }
 }
